@@ -139,10 +139,10 @@ class TaskTracking:
 
 
 if __name__ == '__main__':
-    wtask1 = TaskScheduling.add_work_task('Ise git', SPECIAL_KEYWORDS['today'])
-    ptask1 = TaskScheduling.add_personal_task('Uyu len', SPECIAL_KEYWORDS['tomorrow'])
-    stask1 = TaskScheduling.add_study_task('Odevi yap!', SPECIAL_KEYWORDS['next_week'])
-    ptask2 = TaskScheduling.add_personal_task('Uyan', SPECIAL_KEYWORDS['today'])
+    wtask1 = TaskScheduling.add_work_task('Prepare your CV', SPECIAL_KEYWORDS['today'])
+    ptask1 = TaskScheduling.add_personal_task('Study python', SPECIAL_KEYWORDS['tomorrow'])
+    stask1 = TaskScheduling.add_study_task('Study English and Dutch', SPECIAL_KEYWORDS['next_week'])
+    ptask2 = TaskScheduling.add_personal_task('Solve hackerrenk question', SPECIAL_KEYWORDS['today'])
 
     tm = TaskManagement()
     tm.add_task(wtask1)
